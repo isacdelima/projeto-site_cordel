@@ -19,14 +19,13 @@
 
         header{
             background-color: black;
-            height: 300;
         }
 
         header > h1 {
             color: white;
-            font: bold 8.5vw "passion one",'Times New Roman', Times, serif;
+            font: small-caps bold 8.5vw "passion one",'Times New Roman', Times, serif;
             text-align: center;
-            padding-top: 50px;
+            padding: 50px;
         }
 
         header > p {
@@ -47,17 +46,24 @@
             text-decoration: underline;
         }
 
+        section{
+            padding: 10px;
+        }
         section p {
             max-width: 750px;
             font-family: Sriracha,'Segoe UI',sans-serif;
             font-weight: normal;
             font-size: 3.5vw;
             text-align: left;
-            margin: 80px 50px;
+            margin: 60px 10px;
+            padding: 15px;
         }
 
+        section.normal{
+            background-color: white;
+            color: black;
+        }
         section.fundo-imagem{
-            padding: 50px;
             background-size: cover;
             background-attachment: fixed;
             box-shadow: 0px 0px 2px 2px #0000003f;
@@ -74,9 +80,7 @@
         section.fundo-imagem p {
             background-color: rgba(0, 0, 0, 0.604);
             color: white;
-            margin-left:-20px;
             border-radius: 5px;
-            padding: 5px;
         }
 
         footer{
